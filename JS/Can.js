@@ -4,6 +4,7 @@ class Can{
 		var options={
 			isStatic:false,
 			restitution:0.9,
+			friction:1.5,
 			density:1.0	
 			}
 			this.Visibility = 255;
