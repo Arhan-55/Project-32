@@ -99,10 +99,11 @@ function draw() {
   Engine.update(engine);
   
   stroke("white");
+  strokeWeight(1.7);
   noFill();
   textSize(24);
   text("Press Space to get one more chance ! ! !",50,50);
-  
+
   fill("skyblue");
   ground.display();
 
